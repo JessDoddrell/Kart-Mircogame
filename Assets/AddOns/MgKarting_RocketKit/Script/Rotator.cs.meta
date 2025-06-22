@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 62623b742346b4c45912728850d50a52
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 180501
+  packageName: Rocket Kit - Karting Microgame Add-Ons
+  packageVersion: 2.0.0
+  assetPath: Assets/AddOns/MgKarting_RocketKit/Script/Rotator.cs
+  uploadId: 483856

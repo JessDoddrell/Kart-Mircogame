@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 2d2b2fd5697d8804fbd9d133ce8f4cec
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 180501
+  packageName: Rocket Kit - Karting Microgame Add-Ons
+  packageVersion: 2.0.0
+  assetPath: Assets/AddOns/MgKarting_RocketKit/VFX_RocketKit/Prefabs/VFX_RocketKit.prefab
+  uploadId: 483856

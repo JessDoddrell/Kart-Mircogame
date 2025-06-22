@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 983e99bf1855230429c57aab4cedf81a
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 180506
+  packageName: Tiny Kart - Karting Microgame Add-Ons
+  packageVersion: 2.0.0
+  assetPath: Assets/AddOns/MgKarting_TinyKart/TinyKart_ReadMe.txt
+  uploadId: 483852

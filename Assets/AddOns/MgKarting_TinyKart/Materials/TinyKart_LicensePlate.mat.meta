@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 41d43e0a8bbe4ac4cb93be1a2f79d951
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 180506
+  packageName: Tiny Kart - Karting Microgame Add-Ons
+  packageVersion: 2.0.0
+  assetPath: Assets/AddOns/MgKarting_TinyKart/Materials/TinyKart_LicensePlate.mat
+  uploadId: 483852

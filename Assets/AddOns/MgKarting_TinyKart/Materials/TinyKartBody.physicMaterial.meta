@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ba17376c9a9b5f14e8c4f9cff185b57b
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 180506
+  packageName: Tiny Kart - Karting Microgame Add-Ons
+  packageVersion: 2.0.0
+  assetPath: Assets/AddOns/MgKarting_TinyKart/Materials/TinyKartBody.physicMaterial
+  uploadId: 483852

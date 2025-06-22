@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: dab6f510f4caec24daab5186c749283c
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 180506
+  packageName: Tiny Kart - Karting Microgame Add-Ons
+  packageVersion: 2.0.0
+  assetPath: Assets/AddOns/MgKarting_TinyKart/Materials/TinyKart_Mags.mat
+  uploadId: 483852

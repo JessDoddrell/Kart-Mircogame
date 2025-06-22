@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: a731cd573e46078448ff3aaaba841896
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 19ed1486aa27d4903b34839f37b8f69f, type: 3}
+AssetOrigin:
+  serializedVersion: 1
+  productId: 180506
+  packageName: Tiny Kart - Karting Microgame Add-Ons
+  packageVersion: 2.0.0
+  assetPath: Assets/AddOns/MgKarting_TinyKart/Prefabs/TinyKart_NeuralNetwork.nn
+  uploadId: 483852

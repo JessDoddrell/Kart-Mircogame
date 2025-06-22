@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: a8c02061d10a35f4da7e1c28ad565d2e
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 180505
+  packageName: Cat Racer - Karting Microgame Add-Ons
+  packageVersion: 2.0.0
+  assetPath: Assets/AddOns/MgKarting_CatRacer/Prefabs/CatRacer_Bag_Backpack.prefab
+  uploadId: 483850

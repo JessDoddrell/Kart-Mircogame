@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: e88143f0b4efc5e48a92ff43d48a9f42
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 180505
+  packageName: Cat Racer - Karting Microgame Add-Ons
+  packageVersion: 2.0.0
+  assetPath: Assets/AddOns/MgKarting_CatRacer/CatRacer_ReadMe.txt
+  uploadId: 483850

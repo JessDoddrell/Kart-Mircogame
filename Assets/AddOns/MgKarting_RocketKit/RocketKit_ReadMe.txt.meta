@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 4c3647ad7ffa87c4f8c44f9ac421403b
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 180501
+  packageName: Rocket Kit - Karting Microgame Add-Ons
+  packageVersion: 2.0.0
+  assetPath: Assets/AddOns/MgKarting_RocketKit/RocketKit_ReadMe.txt
+  uploadId: 483856

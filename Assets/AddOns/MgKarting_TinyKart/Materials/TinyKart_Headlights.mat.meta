@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1c0f59ab3ee5c2549b826b6abad4c7f9
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 180506
+  packageName: Tiny Kart - Karting Microgame Add-Ons
+  packageVersion: 2.0.0
+  assetPath: Assets/AddOns/MgKarting_TinyKart/Materials/TinyKart_Headlights.mat
+  uploadId: 483852

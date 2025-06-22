@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 7c5daab860a9571469d94a557e65d7e4
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 180506
+  packageName: Tiny Kart - Karting Microgame Add-Ons
+  packageVersion: 2.0.0
+  assetPath: Assets/AddOns/MgKarting_TinyKart/Prefabs/TinyKart_MLAgent.prefab
+  uploadId: 483852

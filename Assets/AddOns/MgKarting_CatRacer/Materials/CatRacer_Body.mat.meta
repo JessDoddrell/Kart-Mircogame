@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e65e22061b6bd544a85b8cbaf01671df
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 180505
+  packageName: Cat Racer - Karting Microgame Add-Ons
+  packageVersion: 2.0.0
+  assetPath: Assets/AddOns/MgKarting_CatRacer/Materials/CatRacer_Body.mat
+  uploadId: 483850

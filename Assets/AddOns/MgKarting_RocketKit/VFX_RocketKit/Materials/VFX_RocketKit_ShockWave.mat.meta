@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: be3daf4d9a2666b4f968ce32598cfd53
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 180501
+  packageName: Rocket Kit - Karting Microgame Add-Ons
+  packageVersion: 2.0.0
+  assetPath: Assets/AddOns/MgKarting_RocketKit/VFX_RocketKit/Materials/VFX_RocketKit_ShockWave.mat
+  uploadId: 483856
