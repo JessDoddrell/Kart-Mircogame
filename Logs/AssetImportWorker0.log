@@ -1,0 +1,865 @@
+Using pre-set license
+Built from '6000.0/staging' branch; Version is '6000.0.56f1 (9c7b5e468860) revision 10255198'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Education' Language: 'en' Physical Memory: 16309 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+Date: 2025-10-02T13:26:47Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.56f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Unity/Kart-Mircogame
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+52202
+-job-worker-count
+5
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/Unity/Kart-Mircogame
+C:/Unity/Kart-Mircogame
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [28060]  Target information:
+
+Player connection [28060]  * "[IP] 172.27.170.93 [Port] 0 [Flags] 2 [Guid] 394537840 [EditorId] 394537840 [Version] 1048832 [Id] WindowsEditor(7,L-CB346-21264) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [28060] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [28060] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 215.75 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.56f1 (9c7b5e468860)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.56f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Unity/Kart-Mircogame/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x2188)
+    Vendor:   NVIDIA
+    VRAM:     3937 MB
+    Driver:   32.0.15.8129
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.56f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.56f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.56f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56672
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.56f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.56f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.56f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.009309 seconds.
+- Loaded All Assemblies, in  1.633 seconds
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 307 ms
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.715 seconds
+Domain Reload Profiling: 2345ms
+	BeginReloadAssembly (204ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (59ms)
+	LoadAllAssembliesAndSetupDomain (1307ms)
+		LoadAssemblies (199ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1301ms)
+			TypeCache.Refresh (1299ms)
+				TypeCache.ScanAssembly (1285ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (716ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (668ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (418ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (61ms)
+			ProcessInitializeOnLoadAttributes (114ms)
+			ProcessInitializeOnLoadMethodAttributes (72ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in 11.002 seconds
+Refreshing native plugins compatible for Editor in 3.66 ms, found 4 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-kart
+The project currently uses the compatibility mode where the Render Graph API is disabled. Support for this mode will be removed in future Unity versions. Migrate existing ScriptableRenderPasses to the new RenderGraph API. After the migration, disable the compatibility mode in Edit > Projects Settings > Graphics > Render Graph.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEngine.Rendering.Universal.WarnUsingNonRenderGraph:EmitConsoleWarning () (at ./Library/PackageCache/com.unity.render-pipelines.universal@ec146228694a/Runtime/Data/UniversalRenderPipelineAsset.cs:427)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal@ec146228694a/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 427)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.087 seconds
+Domain Reload Profiling: 12080ms
+	BeginReloadAssembly (195ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (10709ms)
+		LoadAssemblies (10439ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (378ms)
+			TypeCache.Refresh (293ms)
+				TypeCache.ScanAssembly (270ms)
+			BuildScriptInfoCaches (66ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (1088ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (779ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (183ms)
+			ProcessInitializeOnLoadAttributes (504ms)
+			ProcessInitializeOnLoadMethodAttributes (66ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 3.78 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 41 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6807 unused Assets / (29.6 MB). Loaded Objects now: 7509.
+Memory consumption went from 162.0 MB to 132.3 MB.
+Total: 26.811200 ms (FindLiveObjects: 1.593700 ms CreateObjectMapping: 1.285600 ms MarkObjects: 9.545100 ms  DeleteObjects: 14.383600 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.85 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 41 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (21.0 MB). Loaded Objects now: 7509.
+Memory consumption went from 154.9 MB to 133.9 MB.
+Total: 13.737300 ms (FindLiveObjects: 0.799400 ms CreateObjectMapping: 0.272700 ms MarkObjects: 7.375100 ms  DeleteObjects: 5.288500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.130 seconds
+Refreshing native plugins compatible for Editor in 3.61 ms, found 4 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+The project currently uses the compatibility mode where the Render Graph API is disabled. Support for this mode will be removed in future Unity versions. Migrate existing ScriptableRenderPasses to the new RenderGraph API. After the migration, disable the compatibility mode in Edit > Projects Settings > Graphics > Render Graph.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEngine.Rendering.Universal.WarnUsingNonRenderGraph:EmitConsoleWarning () (at ./Library/PackageCache/com.unity.render-pipelines.universal@ec146228694a/Runtime/Data/UniversalRenderPipelineAsset.cs:427)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal@ec146228694a/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 427)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.392 seconds
+Domain Reload Profiling: 2516ms
+	BeginReloadAssembly (371ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (78ms)
+	RebuildCommonClasses (49ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (646ms)
+		LoadAssemblies (534ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (293ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (258ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (1392ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1024ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (44ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (248ms)
+			ProcessInitializeOnLoadAttributes (624ms)
+			ProcessInitializeOnLoadMethodAttributes (92ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (22ms)
+Refreshing native plugins compatible for Editor in 4.10 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 41 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6805 unused Assets / (30.0 MB). Loaded Objects now: 7525.
+Memory consumption went from 173.1 MB to 143.1 MB.
+Total: 23.448600 ms (FindLiveObjects: 1.338100 ms CreateObjectMapping: 1.070000 ms MarkObjects: 7.735000 ms  DeleteObjects: 13.302800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.949 seconds
+Refreshing native plugins compatible for Editor in 2.38 ms, found 4 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+The project currently uses the compatibility mode where the Render Graph API is disabled. Support for this mode will be removed in future Unity versions. Migrate existing ScriptableRenderPasses to the new RenderGraph API. After the migration, disable the compatibility mode in Edit > Projects Settings > Graphics > Render Graph.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEngine.Rendering.Universal.WarnUsingNonRenderGraph:EmitConsoleWarning () (at ./Library/PackageCache/com.unity.render-pipelines.universal@ec146228694a/Runtime/Data/UniversalRenderPipelineAsset.cs:427)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal@ec146228694a/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 427)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.770 seconds
+Domain Reload Profiling: 1716ms
+	BeginReloadAssembly (246ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (72ms)
+	RebuildCommonClasses (41ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (608ms)
+		LoadAssemblies (402ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (307ms)
+			TypeCache.Refresh (15ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (270ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (771ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (588ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (132ms)
+			ProcessInitializeOnLoadAttributes (370ms)
+			ProcessInitializeOnLoadMethodAttributes (56ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 2.26 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 41 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6808 unused Assets / (29.4 MB). Loaded Objects now: 7532.
+Memory consumption went from 173.2 MB to 143.8 MB.
+Total: 16.118400 ms (FindLiveObjects: 1.072100 ms CreateObjectMapping: 0.443200 ms MarkObjects: 5.656100 ms  DeleteObjects: 8.945100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 1114550.072047 seconds.
+  path: Assets/Karting/Audio/CollisionWalls.wav
+  artifactKey: Guid(09f715e4d9c95e848945e7702f9bab46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Karting/Audio/CollisionWalls.wav using Guid(09f715e4d9c95e848945e7702f9bab46) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd470de6f834ac27b9bcb95e3fdc2f45a') in 0.1693993 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Karting/Audio/StartSound02.wav
+  artifactKey: Guid(30a284806deffbb4691f78109d0b617b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Karting/Audio/StartSound02.wav using Guid(30a284806deffbb4691f78109d0b617b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '45a4361f9f3f423cc6bb28e7a9779ef2') in 0.0312799 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Karting/Audio/Tire_Screeching.wav
+  artifactKey: Guid(e92cf848e62569a45b1f8cc697211084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Karting/Audio/Tire_Screeching.wav using Guid(e92cf848e62569a45b1f8cc697211084) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '28e99d9fed3b231c617a580b1390fd05') in 0.0322845 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Karting/Audio/EngineA1.wav
+  artifactKey: Guid(dd46253c3a6b6439bbceb25ba2d5665e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Karting/Audio/EngineA1.wav using Guid(dd46253c3a6b6439bbceb25ba2d5665e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '96fdced11e16500642fa0651ad49f385') in 0.0292896 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Karting/Animations/KartFrontWheelsMask.mask
+  artifactKey: Guid(0b4fa3eb165fa044c89f540d8b738a4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Karting/Animations/KartFrontWheelsMask.mask using Guid(0b4fa3eb165fa044c89f540d8b738a4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3774c99665854672f4dd3190f7143c90') in 0.0014685 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Karting/Audio/engine-rev.ogg
+  artifactKey: Guid(7eb03bd77be2345cd94afa59ba4cec74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Karting/Audio/engine-rev.ogg using Guid(7eb03bd77be2345cd94afa59ba4cec74) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '538b7aa388a14cd7c682e6311474ba18') in 0.0342769 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Karting/Audio/engine-running.ogg
+  artifactKey: Guid(819e4330b56d74b398255782be41515f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Karting/Audio/engine-running.ogg using Guid(819e4330b56d74b398255782be41515f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '08d1ed3cbad869194bba7bac4f2f022e') in 0.0550416 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Karting/Audio/EngineA2.wav
+  artifactKey: Guid(2ad022136d1b64c57910b8dcd17576ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Karting/Audio/EngineA2.wav using Guid(2ad022136d1b64c57910b8dcd17576ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f089a9c8a83a60d8da1ee7e4d818081c') in 0.0345503 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Karting/Audio/engine_start.ogg
+  artifactKey: Guid(fc58125bd5e1d457c86a087d8ee30621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Karting/Audio/engine_start.ogg using Guid(fc58125bd5e1d457c86a087d8ee30621) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1cae4da7c2c28f224350bd1492313dcd') in 0.0401695 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Karting/Audio/StartSound01.wav
+  artifactKey: Guid(a935550c6172c6548b1bc8de6e56618a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Karting/Audio/StartSound01.wav using Guid(a935550c6172c6548b1bc8de6e56618a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1562b8fc3c9d6843ae6e99a881f282d2') in 0.0356959 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.903080 seconds.
+  path: Assets/Karting/Timelines/RaceStart.playable
+  artifactKey: Guid(ef59465c823e959448bdf40fa6e69b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Karting/Timelines/RaceStart.playable using Guid(ef59465c823e959448bdf40fa6e69b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2e6c33c2a318cfe803995b3069ad8a78') in 0.0163384 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.041316 seconds.
+  path: Assets/Karting/Tutorials/DialogHeader_Kart.png
+  artifactKey: Guid(128afd373c6f34f43bd58b7bd0815ec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Karting/Tutorials/DialogHeader_Kart.png using Guid(128afd373c6f34f43bd58b7bd0815ec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c4448e409801b0e0c8928bc2498d790e') in 0.0543663 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Karting/Tutorials/Tutorials.asset
+  artifactKey: Guid(08f5116c6f71aa548a00fbd1f56fa92e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Karting/Tutorials/Tutorials.asset using Guid(08f5116c6f71aa548a00fbd1f56fa92e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'af795d686fa0705d6d77767b500d480b') in 0.7741131 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 152
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Karting/Tutorials/TutorialCallbacks.asset
+  artifactKey: Guid(8624a904984c90d4b9b816ca2b211db1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Karting/Tutorials/TutorialCallbacks.asset using Guid(8624a904984c90d4b9b816ca2b211db1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bf08cd9f56534d03dcdc27aa6e8e6a88') in 0.0052206 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Karting/Tutorials/TutorialHeader.png
+  artifactKey: Guid(1c7aa536c503744ffafe54d893a5816b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Karting/Tutorials/TutorialHeader.png using Guid(1c7aa536c503744ffafe54d893a5816b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f810dad17632b44644e72bc1b1a5e15b') in 0.020163 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 79.767951 seconds.
+  path: Assets/ModAssets/Models/AncientProps/Archway.fbx
+  artifactKey: Guid(8845e58e723a048699e6cf81997a1af0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModAssets/Models/AncientProps/Archway.fbx using Guid(8845e58e723a048699e6cf81997a1af0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)CommandBuffer: temporary render texture  not found while executing  (Copy source)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rendering.ScriptableRenderContext:Submit ()
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCamera (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Rendering.Universal.UniversalCameraData) (at ./Library/PackageCache/com.unity.render-pipelines.universal@ec146228694a/Runtime/UniversalRenderPipeline.cs:885)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCameraInternal (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera,UnityEngine.Rendering.Universal.UniversalAdditionalCameraData&,bool) (at ./Library/PackageCache/com.unity.render-pipelines.universal@ec146228694a/Runtime/UniversalRenderPipeline.cs:688)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCameraInternal (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera,bool) (at ./Library/PackageCache/com.unity.render-pipelines.universal@ec146228694a/Runtime/UniversalRenderPipeline.cs:663)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:Render (UnityEngine.Rendering.ScriptableRenderContext,System.Collections.Generic.List`1<UnityEngine.Camera>) (at ./Library/PackageCache/com.unity.render-pipelines.universal@ec146228694a/Runtime/UniversalRenderPipeline.cs:480)
+UnityEngine.Rendering.RenderPipeline:InternalRender (UnityEngine.Rendering.ScriptableRenderContext,System.Collections.Generic.List`1<UnityEngine.Camera>)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset,intptr,UnityEngine.Object,Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)
+UnityEngine.Camera:Render ()
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview (UnityEditor.GameObjectInspector/PreviewData)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[./Library/PackageCache/com.unity.render-pipelines.universal@ec146228694a/Runtime/UniversalRenderPipeline.cs line 885]
+
+CommandBuffer: temporary render texture  not found while executing  (Copy destination)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rendering.ScriptableRenderContext:Submit ()
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCamera (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Rendering.Universal.UniversalCameraData) (at ./Library/PackageCache/com.unity.render-pipelines.universal@ec146228694a/Runtime/UniversalRenderPipeline.cs:885)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCameraInternal (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera,UnityEngine.Rendering.Universal.UniversalAdditionalCameraData&,bool) (at ./Library/PackageCache/com.unity.render-pipelines.universal@ec146228694a/Runtime/UniversalRenderPipeline.cs:688)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCameraInternal (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera,bool) (at ./Library/PackageCache/com.unity.render-pipelines.universal@ec146228694a/Runtime/UniversalRenderPipeline.cs:663)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:Render (UnityEngine.Rendering.ScriptableRenderContext,System.Collections.Generic.List`1<UnityEngine.Camera>) (at ./Library/PackageCache/com.unity.render-pipelines.universal@ec146228694a/Runtime/UniversalRenderPipeline.cs:480)
+UnityEngine.Rendering.RenderPipeline:InternalRender (UnityEngine.Rendering.ScriptableRenderContext,System.Collections.Generic.List`1<UnityEngine.Camera>)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset,intptr,UnityEngine.Object,Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)
+UnityEngine.Camera:Render ()
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview (UnityEditor.GameObjectInspector/PreviewData)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[./Library/PackageCache/com.unity.render-pipelines.universal@ec146228694a/Runtime/UniversalRenderPipeline.cs line 885]
+
+ -> (artifact id: '3b59ddae27be256431427c6c613cafde') in 1.3739893 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Karting/ModularTrackKit/Models/ModularTrackBank.fbx
+  artifactKey: Guid(994f97374df6444279b54b520d1535c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Karting/ModularTrackKit/Models/ModularTrackBank.fbx using Guid(994f97374df6444279b54b520d1535c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '23edbe9b9133c91c6f5c254b7e133733') in 0.0328887 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/ModAssets/Models/NatureProps/Mushroom.fbx
+  artifactKey: Guid(403205f95f9214aa7a1f003ae7bd2333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModAssets/Models/NatureProps/Mushroom.fbx using Guid(403205f95f9214aa7a1f003ae7bd2333) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '569288bd8735e6694a3f816c2d5fed92') in 0.0511208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Karting/Art/Models/BuildingRoofCorner.fbx
+  artifactKey: Guid(f46a9f80d31a32e47a57aa4858036430) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Karting/Art/Models/BuildingRoofCorner.fbx using Guid(f46a9f80d31a32e47a57aa4858036430) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5a22d9232053391ddf7611ceab5607a8') in 0.0246714 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Karting/ModularTrackKit/Models/ModularTrackCantMediumLeft.fbx
+  artifactKey: Guid(193fbff110f9a4b5ea39398504a85034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Karting/ModularTrackKit/Models/ModularTrackCantMediumLeft.fbx using Guid(193fbff110f9a4b5ea39398504a85034) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '378e3c47869c7b6eadf40e5f630da154') in 0.0345368 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Karting/ModularTrackKit/Models/ModularTrackCantSmallLeft.fbx
+  artifactKey: Guid(4bf1a364dc54642f9a8a2d20c3cae318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Karting/ModularTrackKit/Models/ModularTrackCantSmallLeft.fbx using Guid(4bf1a364dc54642f9a8a2d20c3cae318) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4248e6805f2f15961c0348f094b6bc6a') in 0.0320874 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/AddOns/MgKarting_Racetrack/Models/RTC/Decals/mDecal_BankLeft_TurnShort.fbx
+  artifactKey: Guid(6d45649b0eb5e844a8972be1937292ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AddOns/MgKarting_Racetrack/Models/RTC/Decals/mDecal_BankLeft_TurnShort.fbx using Guid(6d45649b0eb5e844a8972be1937292ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8ee1dbe0f2b7ab8b4d4b4fbd680014e9') in 0.7775437 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Karting/Art/Models/Building03CornerWideWindow.fbx
+  artifactKey: Guid(2dc0b90df1333dc469eeb6cff505ccb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Karting/Art/Models/Building03CornerWideWindow.fbx using Guid(2dc0b90df1333dc469eeb6cff505ccb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7570d84863c945cb13c3bd58645f77be') in 0.0258475 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/AddOns/MgKarting_CatRacer/Models/CatRacer_Bag_Backpack.fbx
+  artifactKey: Guid(5d74bfbff305bd04ea974dd0d98e7aec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AddOns/MgKarting_CatRacer/Models/CatRacer_Bag_Backpack.fbx using Guid(5d74bfbff305bd04ea974dd0d98e7aec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fae8674b94b1d77ae7c78d894f8a632e') in 0.0443618 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Karting/Art/Models/Kart_Classic/KartClassic_Wheels.fbx
+  artifactKey: Guid(305a556307b36464395aa157cffcd3db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Karting/Art/Models/Kart_Classic/KartClassic_Wheels.fbx using Guid(305a556307b36464395aa157cffcd3db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '34416d308579d1f4ad554a000096cfd4') in 0.0632235 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Karting/ModularTrackKit/Models/ModularTrackSpiralRight.fbx
+  artifactKey: Guid(c7a29af1540b44b788f2c5e5cafe7a7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Karting/ModularTrackKit/Models/ModularTrackSpiralRight.fbx using Guid(c7a29af1540b44b788f2c5e5cafe7a7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b043955b8c344663a639dd9314ee00db') in 0.0346012 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Karting/Art/Models/BuildingRoofWalls.fbx
+  artifactKey: Guid(96819d445b8f3e54bafac2405ab1e2e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Karting/Art/Models/BuildingRoofWalls.fbx using Guid(96819d445b8f3e54bafac2405ab1e2e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4e94ec7d45f849549cf5f96b792ac77b') in 0.0294481 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Karting/ModularTrackKit/Models/ModularTrackSpiralLeft.fbx
+  artifactKey: Guid(5830767f6fba8446ebc1160d406849b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Karting/ModularTrackKit/Models/ModularTrackSpiralLeft.fbx using Guid(5830767f6fba8446ebc1160d406849b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6e71d61271271c8520bee115b45b0f55') in 0.0306491 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Karting/ModularTrackKit/Models/ModularTrackCurveMediumLeft.fbx
+  artifactKey: Guid(fd8897a9f46db4ff1ba74975ec44af36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Karting/ModularTrackKit/Models/ModularTrackCurveMediumLeft.fbx using Guid(fd8897a9f46db4ff1ba74975ec44af36) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd490efbf5eeec81045f36a4bd77239ce') in 0.0329295 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/AddOns/MgKarting_Racetrack/Models/RTC/Decals/mDecal_BankRight_Straight.fbx
+  artifactKey: Guid(8d70f7190ebf1ae45a09bf76c6057d87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AddOns/MgKarting_Racetrack/Models/RTC/Decals/mDecal_BankRight_Straight.fbx using Guid(8d70f7190ebf1ae45a09bf76c6057d87) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6c3daabdff257e445fdcd0a73bceabaa') in 0.0239792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Karting/Art/Models/Player.FBX
+  artifactKey: Guid(6efe54ae207d7bb46a4adca3c0143126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Karting/Art/Models/Player.FBX using Guid(6efe54ae207d7bb46a4adca3c0143126) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '24fe16815ead50e6a0ae55a172258507') in 0.0467603 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 138
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Karting/ModularTrackKit/Models/ModularTrackCurveLeft.fbx
+  artifactKey: Guid(a0922edcbe6b74564b40735068507f0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Karting/ModularTrackKit/Models/ModularTrackCurveLeft.fbx using Guid(a0922edcbe6b74564b40735068507f0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '68e44237ef3de07c195f0b0ef5823b5a') in 0.0314031 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/ModAssets/Models/NatureProps/FallenTree.fbx
+  artifactKey: Guid(eaf3edd0ef88ac84c970b62f673ed6b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModAssets/Models/NatureProps/FallenTree.fbx using Guid(eaf3edd0ef88ac84c970b62f673ed6b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '88954a97c25f32bda57362240aa94b62') in 0.0381095 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Karting/Art/Models/BuildingRoofCentral.fbx
+  artifactKey: Guid(0a64fcbabe32dac42b6b77115813e42d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Karting/Art/Models/BuildingRoofCentral.fbx using Guid(0a64fcbabe32dac42b6b77115813e42d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '92b1eda9032fd7f317632f40f89fb0f1') in 0.023048 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/ModAssets/Models/FoodProps/Cookie.fbx
+  artifactKey: Guid(a8f127f4a0a19407db2b784d5ae1b637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModAssets/Models/FoodProps/Cookie.fbx using Guid(a8f127f4a0a19407db2b784d5ae1b637) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b50af2b8d333b3c2ca15acd3595ddce8') in 0.0446513 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/AddOns/MgKarting_Racetrack/Models/RTC/Decals/mDecal_BankRight_TurnShort.fbx
+  artifactKey: Guid(c8c0bb3b584079147bb832a019153251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AddOns/MgKarting_Racetrack/Models/RTC/Decals/mDecal_BankRight_TurnShort.fbx using Guid(c8c0bb3b584079147bb832a019153251) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0e04e2d47918406067a5e804f2c41403') in 0.0234716 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Karting/Art/Models/Building01CornerPlain.fbx
+  artifactKey: Guid(ee73619a09d1dc54ca72cdbc2a1d3c58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Karting/Art/Models/Building01CornerPlain.fbx using Guid(ee73619a09d1dc54ca72cdbc2a1d3c58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd4e7f2ee7e0d8f411c237461e6871360') in 0.0259861 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Karting/ModularTrackKit/Models/ModularTrackCurveLargeLeft.fbx
+  artifactKey: Guid(3cc54c2c67fc34a1abe6fe43c889f8e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Karting/ModularTrackKit/Models/ModularTrackCurveLargeLeft.fbx using Guid(3cc54c2c67fc34a1abe6fe43c889f8e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bbd3950c208913092efe4e085b3fe0b7') in 0.0320586 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/ModAssets/Models/NatureProps/FirTree.fbx
+  artifactKey: Guid(5fc0e3d37ec294384aaa0b18e537ff86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModAssets/Models/NatureProps/FirTree.fbx using Guid(5fc0e3d37ec294384aaa0b18e537ff86) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '42dd678609a507f8586af12fa086f9fe') in 0.0504239 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Karting/Animations/Player/PlayerIdle.FBX
+  artifactKey: Guid(078f73b46517318428ecaf8e7207124c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Karting/Animations/Player/PlayerIdle.FBX using Guid(078f73b46517318428ecaf8e7207124c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ed841a4c10bd5712a247da1bc0c7fbd1') in 0.0328657 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/ModAssets/Models/NatureProps/PalmTree.fbx
+  artifactKey: Guid(ae36130ee9b994114b35ece84c158fdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModAssets/Models/NatureProps/PalmTree.fbx using Guid(ae36130ee9b994114b35ece84c158fdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dbd888388bdc28962201c5233467ddb2') in 0.0729373 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/ModAssets/Models/SpaceProps/Crystal.fbx
+  artifactKey: Guid(6b2dfb46096eb400e8d5de95609e53b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModAssets/Models/SpaceProps/Crystal.fbx using Guid(6b2dfb46096eb400e8d5de95609e53b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '83a1729a78d681eeaf1cc42f6ee29157') in 0.0388956 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/ModAssets/Models/AncientProps/Pillar.fbx
+  artifactKey: Guid(44e1bc51d0853468d8baf487909db950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModAssets/Models/AncientProps/Pillar.fbx using Guid(44e1bc51d0853468d8baf487909db950) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '40767902fc024c625abde351a678807c') in 0.0425732 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Karting/Art/Models/Cloud.FBX
+  artifactKey: Guid(0829d76c4806eb54b8b2f17eec10f4e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Karting/Art/Models/Cloud.FBX using Guid(0829d76c4806eb54b8b2f17eec10f4e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f05d85de4c79b91401dfb259e72bc6c4') in 0.0247113 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/ModAssets/Models/BillboardMeshes/billboard_3D_tall.fbx
+  artifactKey: Guid(ae9da133c804d4fd8b985969f814bfdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModAssets/Models/BillboardMeshes/billboard_3D_tall.fbx using Guid(ae9da133c804d4fd8b985969f814bfdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd7252ee6c9b558c20262fb563b9eaf6d') in 0.0358954 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Karting/Art/Models/BuildingTallModel.fbx
+  artifactKey: Guid(adb35abc445884745af48dba2016ddea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Karting/Art/Models/BuildingTallModel.fbx using Guid(adb35abc445884745af48dba2016ddea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '982ecbd6cb40039c489427da6355c1ea') in 0.0413443 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Karting/Art/Models/Building04CornerBarWindow.fbx
+  artifactKey: Guid(15e65acc49c1d194f9a661fcbd8f8edf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Karting/Art/Models/Building04CornerBarWindow.fbx using Guid(15e65acc49c1d194f9a661fcbd8f8edf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2d9ba4b32179cd75f0d44e2385779b52') in 0.024146 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Karting/Art/Models/Building02CornerBricks.fbx
+  artifactKey: Guid(91cfa91e879ed5e42ac5a4f865fc05d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Karting/Art/Models/Building02CornerBricks.fbx using Guid(91cfa91e879ed5e42ac5a4f865fc05d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '39a41c89c1c760de51247f80242f8743') in 0.0270927 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Karting/ModularTrackKit/Models/ModularTrackCantMediumRight.fbx
+  artifactKey: Guid(da23b199c8ab5479e812925e733aaf8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Karting/ModularTrackKit/Models/ModularTrackCantMediumRight.fbx using Guid(da23b199c8ab5479e812925e733aaf8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1284821e87e86029268b8a6c388aef0a') in 0.0282774 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Karting/ModularTrackKit/Models/ModularTrackCantSmallRight.fbx
+  artifactKey: Guid(52f3b50c1579446dfa7dac35f5ac2e0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Karting/ModularTrackKit/Models/ModularTrackCantSmallRight.fbx using Guid(52f3b50c1579446dfa7dac35f5ac2e0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '343f9faeddc525f7f5b56e97d6c1025b') in 0.0353446 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/ModAssets/Models/HatMeshes/PartyHatMesh.fbx
+  artifactKey: Guid(34a2d77e69c9248c09fea2bd77090468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModAssets/Models/HatMeshes/PartyHatMesh.fbx using Guid(34a2d77e69c9248c09fea2bd77090468) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7bf6318a3fc342a11b9e2a1b3d7e9289') in 0.0423949 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Karting/Art/Models/Hill.fbx
+  artifactKey: Guid(92bb9994204d1d44cb6223c53e4f84f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Karting/Art/Models/Hill.fbx using Guid(92bb9994204d1d44cb6223c53e4f84f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '33a1636c2815ff84f72c363cd59c3518') in 0.0253066 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Karting/ModularTrackKit/Models/ModularTrackRampCurveLeft.fbx
+  artifactKey: Guid(05fede2a6022d42b1ade2912387039fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Karting/ModularTrackKit/Models/ModularTrackRampCurveLeft.fbx using Guid(05fede2a6022d42b1ade2912387039fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '310e200e6fd0bc4ca0505753558d78d5') in 0.0306496 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/AddOns/MgKarting_Racetrack/Models/RTC/Decals/mDecal_Strip_01.fbx
+  artifactKey: Guid(65d799fc6fb49b445975e54cc60d1dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AddOns/MgKarting_Racetrack/Models/RTC/Decals/mDecal_Strip_01.fbx using Guid(65d799fc6fb49b445975e54cc60d1dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'da2b0854d8353d3bd68b025bceab6f89') in 0.0270197 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Karting/Art/Models/BuildingThinModel.fbx
+  artifactKey: Guid(4d5adf1f338cc40bf8ed376a09b0ac1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Karting/Art/Models/BuildingThinModel.fbx using Guid(4d5adf1f338cc40bf8ed376a09b0ac1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c5b8f9922631c14ba184445e574ae3a2') in 0.0446416 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/ModAssets/Models/FoodProps/GummyBear.fbx
+  artifactKey: Guid(58ea00b8d25e246b4aabc659dc7b33c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModAssets/Models/FoodProps/GummyBear.fbx using Guid(58ea00b8d25e246b4aabc659dc7b33c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4b642fe7f0b266664b83763aa3390c9d') in 0.0527356 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Karting/ModularTrackKit/Models/ModularTrackSCurveRight.fbx
+  artifactKey: Guid(109245566253c1c4aaa181dd71fad1a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Karting/ModularTrackKit/Models/ModularTrackSCurveRight.fbx using Guid(109245566253c1c4aaa181dd71fad1a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7307ee89fce5223283daa495fd412951') in 0.0329145 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 938.083900 seconds.
+  path: Assets/Karting/Scripts/KartGame.asmdef
+  artifactKey: Guid(a54b96d5ddd2c488aadb7e2cb0921b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Karting/Scripts/KartGame.asmdef using Guid(a54b96d5ddd2c488aadb7e2cb0921b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4a86c06bb757384da0abe6a49ac7b41b') in 0.0009895 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
